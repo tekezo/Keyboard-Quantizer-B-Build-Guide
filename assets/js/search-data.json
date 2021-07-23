@@ -43,7 +43,7 @@
   },"7": {
     "doc": "Setup",
     "title": "ファームウェアの更新",
-    "content": "Keyboard Quantizer B には 3 種類のファームウェアを書き込む必要があります。 互換性のあるバージョンの組み合わせでないと正常に動作しません。 . 以下の手順では最新版のデフォルトファームウェアに更新します。 細かい挙動を変更するには自分でQMKファームウェアをビルドする必要があります。 . 組立済み版の場合はまずバージョンの確認をしてみて、既に最新版のファームが書き込まれていればこの手順を飛ばしてください。 . メインマイコンの更新 . | Quantizer をパソコンに差し込む | Update Bootloaderボタンをクリックし、ポップアップが表示されたら(BMP)Keyboard Quantizerまたはnrf52 SDFU USBを選択して接続ボタンをクリック | Quantizerをクリックした場合はもう一度Update Bootloaderボタンをクリックしnrf52 SDFU USBを選択 | アップデートの完了を待つ . | アップデート中にパソコンから取り外さないでください | . | 同様にUpdate Applicationボタンを使ってQMKファームウェアをアップデート | . サブマイコンの更新 . | Update CH559をクリックし、ポップアップが表示されたらKeyboard Quantizerを選択して接続 | アップデートの完了を待つ . | アップデート中にパソコンから取り外さないでください | . | . ",
+    "content": "Keyboard Quantizer B には 3 種類のファームウェアを書き込む必要があります。 互換性のあるバージョンの組み合わせでないと正常に動作しません。 . 更新履歴 . | メインマイコン：&lt;major&gt;.&lt;minor&gt;.&lt;revision&gt;というバージョン表記で、majorとminorが一致するバージョン同士を書き込む。revisionは違ってもよい | サブマイコン：いまのところ全バージョンで互換性あり | . 以下の手順では最新版のデフォルトファームウェアに更新します。 細かい挙動を変更するには自分でQMKファームウェアをビルドする必要があります。 . 組立済み版の場合はまずバージョンの確認をしてみて、既に最新版のファームが書き込まれていればこの手順を飛ばしてください。 . メインマイコンの更新 . | Quantizer をパソコンに差し込む | Update Bootloaderボタンをクリックし、ポップアップが表示されたら(BMP)Keyboard Quantizerまたはnrf52 SDFU USBを選択して接続ボタンをクリック | Quantizerをクリックした場合はもう一度Update Bootloaderボタンをクリックしnrf52 SDFU USBを選択 | アップデートの完了を待つ . | アップデート中にパソコンから取り外さないでください | . | 同様にUpdate Applicationボタンを使ってQMKファームウェアをアップデート | . サブマイコンの更新 . | Update CH559をクリックし、ポップアップが表示されたらKeyboard Quantizerを選択して接続 | アップデートの完了を待つ . | アップデート中にパソコンから取り外さないでください | . | . ",
     "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/setup/#%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E6%9B%B4%E6%96%B0",
     "relUrl": "/setup/#ファームウェアの更新"
   },"8": {
@@ -55,7 +55,7 @@
   },"9": {
     "doc": "Setup",
     "title": "キーマップの変更と動作確認",
-    "content": ". | ファームウェアを更新したら Quantizer を PC に差し込み直し、USB キーボードを接続する | Remapにアクセスする . | 初回の書き込みなどでキーマップが空白の場合にはキーマップをリセットする . | 21/7/9時点でRemapのレビューが完了していないためkeyboard-quantizer-b.jsonを使用してください | . | . | キーボードでキーを押すと設定どおりに入力されることを確認する . | キーを押してもなにも入力されない場合は解析方式の変更を試す | . | . キーマップ変更の詳細 . QMKのTAPPING_TERMは下記フォームから変更できます。 . ",
+    "content": ". | ファームウェアを更新したら Quantizer を PC に差し込み直し、USB キーボードを接続する | Remapにアクセスする . | 初回の書き込みなどでキーマップが空白の場合にはキーマップをリセットする . | レイアウトを変更したい場合はkeyboard-quantizer-b.jsonを編集して使用してください | . | . | キーボードでキーを押すと設定どおりに入力されることを確認する . | キーを押してもなにも入力されない場合は解析方式の変更を試す | . | . キーマップ変更の詳細 . QMKのTAPPING_TERMは下記フォームから変更できます。 . ",
     "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/setup/#%E3%82%AD%E3%83%BC%E3%83%9E%E3%83%83%E3%83%97%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%A8%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D",
     "relUrl": "/setup/#キーマップの変更と動作確認"
   },"10": {
@@ -214,5 +214,23 @@
     "content": "本家QMKと違いこれらの設定は自動保存されません。カスタムキーコードのEE SAVEを実行するかCLIからee saveコマンドを発行してください。 . ",
     "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/faq/#ag_swap%E3%81%AA%E3%81%A9%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%81%8C%E4%BF%9D%E5%AD%98%E3%81%95%E3%82%8C%E3%81%BE%E3%81%9B%E3%82%93",
     "relUrl": "/faq/#ag_swapなどの設定が保存されません"
+  },"36": {
+    "doc": "Release Notes",
+    "title": "Release Notes",
+    "content": "Firmware Updater . ",
+    "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/",
+    "relUrl": "/release_notes/"
+  },"37": {
+    "doc": "Release Notes",
+    "title": "2021/7/23(Application 0.10.1)",
+    "content": ". | MouseKeyの挙動を修正 | MO割り当て時のマウスジェスチャの挙動を修正 | サブマイコンからの取りこぼし対策を強化 | . ",
+    "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#2021723application-0101",
+    "relUrl": "/release_notes/#2021723application-0101"
+  },"38": {
+    "doc": "Release Notes",
+    "title": "2021/7/17 (Bootloader 0.10.0, Application 0.10.0, Host 1.1.0)",
+    "content": ". | 公開 | . ",
+    "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#2021717-bootloader-0100-application-0100-host-110",
+    "relUrl": "/release_notes/#2021717-bootloader-0100-application-0100-host-110"
   }
 }

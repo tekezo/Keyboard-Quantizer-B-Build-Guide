@@ -222,11 +222,17 @@
     "relUrl": "/release_notes/"
   },"37": {
     "doc": "Release Notes",
+    "title": "2021/8/6(Application 0.10.2)",
+    "content": ". | マクロ機能を追加(現時点ではVIAからのみ書き換え可能) | マウスホイールの動作を変更可能にした | . ",
+    "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#202186application-0102",
+    "relUrl": "/release_notes/#202186application-0102"
+  },"38": {
+    "doc": "Release Notes",
     "title": "2021/7/23(Application 0.10.1)",
     "content": ". | MouseKeyの挙動を修正 | MO割り当て時のマウスジェスチャの挙動を修正 | サブマイコンからの取りこぼし対策を強化 | . ",
     "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#2021723application-0101",
     "relUrl": "/release_notes/#2021723application-0101"
-  },"38": {
+  },"39": {
     "doc": "Release Notes",
     "title": "2021/7/17 (Bootloader 0.10.0, Application 0.10.0, Host 1.1.0)",
     "content": ". | 公開 | . ",

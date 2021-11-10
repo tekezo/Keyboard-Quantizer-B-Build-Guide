@@ -222,29 +222,35 @@
     "relUrl": "/release_notes/"
   },"37": {
     "doc": "Release Notes",
+    "title": "2021/11/10(Bootloader 0.11.0, Application 0.11.0)",
+    "content": ". | メディアキー関連の認識の改善 | 安定性に関する修正 | . ",
+    "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#20211110bootloader-0110-application-0110",
+    "relUrl": "/release_notes/#20211110bootloader-0110-application-0110"
+  },"38": {
+    "doc": "Release Notes",
     "title": "2021/9/23(Application 0.10.4)",
     "content": ". | 無線接続時の通信頻度を修正(マウス接続時のバッファあふれ対策) | モディファイヤと通常キーが同時に押下されたときにモディファイヤを優先して処理するように変更 | レイヤ移動中にもマウスボタンが動作するように修正 | . ",
     "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#2021923application-0104",
     "relUrl": "/release_notes/#2021923application-0104"
-  },"38": {
+  },"39": {
     "doc": "Release Notes",
     "title": "2021/9/3(Application 0.10.3)",
     "content": ". | 起動時にサブマイコンとの接続に失敗することがある不具合を修正 | . ",
     "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#202193application-0103",
     "relUrl": "/release_notes/#202193application-0103"
-  },"39": {
+  },"40": {
     "doc": "Release Notes",
     "title": "2021/8/6(Application 0.10.2)",
     "content": ". | マクロ機能を追加(現時点ではVIAからのみ書き換え可能=&gt;Remapからの書き換えにも対応) | マウスホイールの動作を変更可能にした | . ",
     "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#202186application-0102",
     "relUrl": "/release_notes/#202186application-0102"
-  },"40": {
+  },"41": {
     "doc": "Release Notes",
     "title": "2021/7/23(Application 0.10.1)",
     "content": ". | MouseKeyの挙動を修正 | MO割り当て時のマウスジェスチャの挙動を修正 | サブマイコンからの取りこぼし対策を強化 | . ",
     "url": "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/release_notes/#2021723application-0101",
     "relUrl": "/release_notes/#2021723application-0101"
-  },"41": {
+  },"42": {
     "doc": "Release Notes",
     "title": "2021/7/17 (Bootloader 0.10.0, Application 0.10.0, Host 1.1.0)",
     "content": ". | 公開 | . ",

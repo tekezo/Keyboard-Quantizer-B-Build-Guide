@@ -9663,7 +9663,7 @@
               : t("Quantizer not found");
         }),
         (this.defaultBaudrate = 57600),
-        (this.filters = [{ usbVendorId: 65261, usbProductId: 39323 }]),
+        (this.filters = [{ usbVendorId: 0, usbProductId: 0 }]),
         (this.ch55xBootloader = new Sd(e));
     }
     static getInstance(e) {

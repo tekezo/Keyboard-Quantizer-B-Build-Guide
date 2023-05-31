@@ -61,7 +61,7 @@
     var request = new XMLHttpRequest();
     request.open(
       "GET",
-      "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/assets/js/search-data.json",
+      "/assets/js/search-data.json",
       true
     );
 
@@ -493,7 +493,7 @@
     var cssFile = document.querySelector('[rel="stylesheet"]');
     cssFile.setAttribute(
       "href",
-      "https://sekigon-gonnoc.github.io/Keyboard-Quantizer-B-Build-Guide/assets/css/just-the-docs-" +
+      "/assets/css/just-the-docs-" +
         theme +
         ".css"
     );
